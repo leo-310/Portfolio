@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 675 1200">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+        mix-blend-mode: overlay;
+      }
+
+      .cls-3 {
+        fill: #2f3a61;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        fill: #8a8c99;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        fill: #05142b;
+      }
+
+      .cls-8 {
+        fill: #0c1f3b;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="681.68" y1="1196.14" x2="-6.68" y2="3.86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".06" stop-color="#252625"/>
+      <stop offset=".14" stop-color="#515251"/>
+      <stop offset=".23" stop-color="#787978"/>
+      <stop offset=".32" stop-color="#999b99"/>
+      <stop offset=".42" stop-color="#b4b6b4"/>
+      <stop offset=".52" stop-color="#c9cbc9"/>
+      <stop offset=".64" stop-color="#d7d9d7"/>
+      <stop offset=".78" stop-color="#e0e2e0"/>
+      <stop offset="1" stop-color="#e3e5e3"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-6" width="675" height="1200"/>
+    </clipPath>
+  </defs>
+  <g class="cls-1">
+    <g id="Background">
+      <rect class="cls-7" width="675" height="1200"/>
+    </g>
+    <g id="Graphic_Elements" data-name="Graphic Elements">
+      <rect class="cls-2" width="675" height="1200"/>
+      <g class="cls-4">
+        <g>
+          <polygon class="cls-5" points="647.52 917.29 536.74 1021.83 591.58 1012.66 647.52 917.29"/>
+          <polygon class="cls-8" points="719.15 1051.72 647.52 917.29 591.58 1012.66 719.15 1051.72"/>
+          <polygon class="cls-3" points="591.58 1012.66 719.15 1051.72 536.74 1021.83 591.58 1012.66"/>
+        </g>
+        <g>
+          <polygon class="cls-5" points="601.63 1196.04 380.54 924.32 392.32 1051.66 601.63 1196.04"/>
+          <polygon class="cls-8" points="265.78 1401.97 601.63 1196.04 392.32 1051.66 265.78 1401.97"/>
+          <polygon class="cls-8" points="232.03 1013.14 380.54 924.32 392.32 1051.66 232.03 1013.14"/>
+          <polygon class="cls-3" points="265.78 1401.97 232.03 1013.14 392.32 1051.66 265.78 1401.97"/>
+        </g>
+        <g>
+          <polygon class="cls-3" points="657.63 385.84 761.45 364.22 701.59 460.29 588.55 466.31 657.63 385.84"/>
+          <polygon class="cls-5" points="588.55 466.31 657.63 385.84 608.13 302.01 588.55 466.31"/>
+          <polygon class="cls-8" points="608.13 302.01 657.63 385.84 761.45 364.22 608.13 302.01"/>
+        </g>
+        <g>
+          <polygon class="cls-5" points="87.49 683.24 22.58 739.26 72.15 859.74 131.26 789.62 87.49 683.24"/>
+          <polygon class="cls-8" points="-62.96 745.13 22.58 739.26 72.15 859.74 -19.19 851.51 -62.96 745.13"/>
+          <polygon class="cls-3" points="4.27 694.75 87.49 683.24 22.58 739.26 -62.96 745.13 4.27 694.75"/>
+        </g>
+        <g>
+          <polygon class="cls-5" points="93.88 102.61 101.72 144.61 166.03 153.5 150.67 110.46 93.88 102.61"/>
+          <polygon class="cls-8" points="82.79 182.92 101.72 144.61 166.03 153.5 139.57 190.77 82.79 182.92"/>
+          <polygon class="cls-3" points="77.96 141.33 93.88 102.61 101.72 144.61 82.79 182.92 77.96 141.33"/>
+        </g>
+        <g>
+          <polygon class="cls-5" points="303.31 -65.39 651.43 96.25 425.9 39.89 303.31 -65.39"/>
+          <polygon class="cls-8" points="425.9 39.89 363.42 146.69 303.31 -65.39 425.9 39.89"/>
+          <polygon class="cls-3" points="363.42 146.69 651.43 96.25 425.9 39.89 363.42 146.69"/>
+        </g>
+        <g>
+          <polygon class="cls-8" points="110.82 1148.34 -265.17 1225.38 -50.33 1136.59 110.82 1148.34"/>
+          <polygon class="cls-3" points="-50.33 1136.59 -63.61 1013.57 110.82 1148.34 -50.33 1136.59"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
