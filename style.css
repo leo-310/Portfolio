@@ -33,7 +33,8 @@ body {
   width: 30%;
 }
 .logo {
-  margin-left: 60px;
+  margin-left: 4rem;
+  width: 6rem;
 }
 .navRight {
   display: flex;
@@ -153,7 +154,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  /* justify-content: center; */
+  justify-content: center;
   /* align-items: center; */
   height: 120vh;
 }
@@ -322,23 +323,19 @@ align-items: center;
   /* margin: 10px 20px; */
 }
 #name {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
-#email {
-  margin-right: 10px;
-}
+/* #email {
+  margin-right: 1rem;
+} */
 #details {
   margin: 10px 0px;
   background-color: #303d60;
   border: 3px solid #162241;
   color: aliceblue;
   border-radius: 10px;
-  width: 600px;
-  height: 220px;
-  align-content: center;
-  /* text-align: start; */
-  width: 600px;
-  height: 220px;
+  width: 100%;
+height: 12rem;
 }
 
 .submitbutton {
@@ -374,33 +371,33 @@ align-items: center;
 }
 
 .footer p{
-    color: white;
-    margin-top: 10px;
-    font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
 }
 .social-media-container{
-    margin: 10px;
+  margin: 10px;
 }
-.fa-solid,.fa-heart{
-    font-size: 26px;
+.fa-heart{
+  font-size: 26px;
     animation-name: heart-color;
     animation-duration: 1500ms;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-fill-mode: both;
-
-}
- @keyframes heart-color {
+    
+  }
+  @keyframes heart-color {
     0%,100%{
-        color: #91b0ff;
+      color: #91b0ff;
     }
     50%{
-        color: red;
+      color: red;
     }
     
-}
-
-.fa-twitter,.fa-envelope,.fa-instagram,.fa-github{
+  }
+  
+  .fa-twitter,.fa-envelope,.fa-instagram,.fa-github,.fa-bars,.fa-xmark{
     color: #91b0ff;
     font-size: 30px;
     margin: 0 20px;
@@ -408,10 +405,90 @@ align-items: center;
     border-radius: 10px;
     transition-duration: 500ms;
     transition-timing-function: ease-in-out;
-}
-.fa-twitter:hover,.fa-envelope:hover,.fa-instagram:hover,.fa-github:hover{
-background-color: #91b0ff;
-box-shadow: rgba(108, 123, 255, 0.25) 0px 6px 12px -2px,
+  }
+  #hamburger,#cancel,#check{
+    display: none;
+  }
+  
+  .fa-twitter:hover,.fa-envelope:hover,.fa-instagram:hover,.fa-github:hover,.fa-bars:hover,.fa-xmark:hover{
+    background-color: #91b0ff;
+    box-shadow: rgba(108, 123, 255, 0.25) 0px 6px 12px -2px,
     rgba(116, 153, 255, 0.3) 0px 3px 7px -3px;
     color: #131d36;
-}
+  }
+  
+  
+  /* ------------------Media Queries---------------- */
+  @media (max-width : 720px){
+    .navBar{
+      flex-direction: column;
+      height: 8rem;
+    }
+    
+    .menus{
+      top: 0;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 1rem auto;
+      left: -100%;
+
+    }
+    .navRight{
+      width: 100vw;
+    }
+    .navLeft{
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      margin: 0rem;
+    }
+    .logo {
+      margin: auto;
+      width: 6rem;
+    }
+    .menus li{
+
+      margin: -1.5rem;
+      padding: -0.5rem;
+    }
+    #contact{
+      margin-right: auto;
+    }
+
+
+
+
+    .home {
+      flex-direction: column;
+    }
+    .homeRight img {
+      width: 50vw;
+    }
+    .homeLeft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      height: 50%;
+      width: 80vw;
+    }
+    .homeRight {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:80vw;
+      margin-top: -6rem;
+      margin-left: auto;
+      margin-right: auto;
+    } 
+    .head {
+      font-size: 2rem;
+      margin-left: 0;
+    }
+    .desc {
+      font-size: 1rem;
+    }
+
+  }
